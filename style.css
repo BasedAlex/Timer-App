@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: Grey;
+
+  margin: 0;
+  background-image: url('./img/elden_ring2.jpg');
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 4rem;
+  margin-top: -10rem;
+}
+
+.countdown-container {
+  display: flex;
+}
+
+.big-text {
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0 2rem;
+  font-weight: bold;
+}
+
+.counterEl {
+  text-align: center;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.counterEl span {
+  font-size: 1.3rem;
+}
+
+/* p {
+  background-color: grey;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  margin: 0;
+  font-size: 50px;
+  height: 70px;
+  width: 200px;
+} */ ;
